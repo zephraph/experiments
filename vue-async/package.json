@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "vue-async",
+  "scripts": {
+    "dev": "vbuild --dev",
+    "build:server": "vbuild --config server.config.js --watch",
+    "server": "export VUE_ENV=server; cd dist; node assets/client.js"
+  },
+  "devDependencies": {
+    "pug": "^2.0.0-beta6",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.3.1",
+    "vbuild": "^3.2.1"
+  },
+  "dependencies": {
+    "vue-server-renderer": "2.0.7"
+  }
+}
