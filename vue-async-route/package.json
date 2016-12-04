@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "vue-async-route",
+  "scripts": {
+    "dev": "vbuild --dev",
+    "build": "vbuild"
+  },
+  "devDependencies": {
+    "vbuild": "^4.1.6"
+  },
+  "dependencies": {
+    "vue-router": "^2.1.1"
+  }
+}
